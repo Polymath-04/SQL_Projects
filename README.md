@@ -9,9 +9,9 @@ Objective:
 
 Dataset:
 The dataset consists of three primary tables:
-> Salesman
-> Customer
-> Orders
+a. Salesman
+b. Customer
+c. Orders
 
 -----
 

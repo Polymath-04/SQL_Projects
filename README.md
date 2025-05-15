@@ -9,12 +9,9 @@ This assignment demonstrates practical SQL skills by managing and querying a rel
 
 Dataset:
 The dataset consists of three primary tables:
-
-Salesman
-
-Customer
-
-Orders
+> Salesman
+> Customer
+> Orders
 
 -----
 
@@ -78,12 +75,12 @@ This case study applies SQL concepts to analyze customer data from various state
 Dataset Description:
 You have access to three interrelated tables:
 
-FactTable (4,200 rows)
+FactTable (4,200 rows):
 Contains sales data with the following fields:
 
-Date, ProductID, Profit, Sales, Margin, COGS, Total Expenses, Marketing, Inventory
+> Date, ProductID, Profit, Sales, Margin, COGS, Total Expenses, Marketing, Inventory
 
-Budget Profit, Budget COGS, Budget Margin, Budget Sales, Area Code
+> Budget Profit, Budget COGS, Budget Margin, Budget Sales, Area Code
 
 ProductTable (13 rows)
 Columns: Product Type, Product, ProductID, Type
@@ -105,30 +102,30 @@ The goal of this case study is to apply SQL techniques such as joins, subqueries
 Dataset Description:
 This case study consists of the following relational tables:
 
-1. LOCATION Table
-Column	Description
-Location_ID	Primary Key
-City	City Name
+1. LOCATION Table:
+Column | Description
+Location_ID :	Primary Key
+City : City Name
 
-2. DEPARTMENT Table
-Column	Description
-Department_ID	Primary Key
-Name	Department Name
-Location_ID	Foreign Key referencing LOCATION
+2. DEPARTMENT Table:
+Column	| Description
+Department_ID :	Primary Key
+Name :	Department Name
+Location_ID :	Foreign Key referencing LOCATION
 
-3. JOB Table
-Column	Description
-Job_ID	Primary Key
-Designation	Job Title
+3. JOB Table:
+Column	| Description :
+Job_ID :	Primary Key
+Designation	: Job Title
 
-4. EMPLOYEE Table
-Column	Description
-Employee_ID	Unique Employee ID
-First_Name	Employee First Name
-Last_Name	Employee Last Name
-Middle_Name	Middle Initial (if any)
-Job_ID	Foreign Key referencing JOB
-Hire Date	Date of Joining
-Salary	Monthly Salary
-Commission	Commission (nullable)
-Department_ID	Foreign Key referencing DEPARTMENT
+4. EMPLOYEE Table :
+Column	| Description
+Employee_ID	: Unique Employee ID
+First_Name	: Employee First Name
+Last_Name	: Employee Last Name
+Middle_Name :	Middle Initial (if any)
+Job_ID :	Foreign Key referencing JOB
+Hire Date :	Date of Joining
+Salary :	Monthly Salary
+Commission :	Commission (nullable)
+Department_ID	: Foreign Key referencing DEPARTMENT

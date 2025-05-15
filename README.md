@@ -103,29 +103,36 @@ Dataset Description:
 This case study consists of the following relational tables:
 
 1. LOCATION Table:
-Column | Description
-Location_ID :	Primary Key
-City : City Name
+| **Column Name** | **Data Type** | **Description**    |
+| --------------- | ------------- | ------------------ |
+| `Location_ID`   | INT (PK)      | Unique location ID |
+| `City`          | VARCHAR       | City name          |
+
 
 2. DEPARTMENT Table:
-Column	| Description
-Department_ID :	Primary Key
-Name :	Department Name
-Location_ID :	Foreign Key referencing LOCATION
+| **Column Name** | **Data Type** | **Description**                    |
+| --------------- | ------------- | ---------------------------------- |
+| `Department_ID` | INT (PK)      | Unique department ID               |
+| `Name`          | VARCHAR       | Name of the department             |
+| `Location_ID`   | INT (FK)      | References `Location(Location_ID)` |
 
 3. JOB Table:
-Column	| Description :
-Job_ID :	Primary Key
-Designation	: Job Title
+| **Column Name** | **Data Type** | **Description**       |
+| --------------- | ------------- | --------------------- |
+| `Job_ID`        | INT (PK)      | Unique job ID         |
+| `Designation`   | VARCHAR       | Job designation/title |
+
 
 4. EMPLOYEE Table :
-Column	| Description
-Employee_ID	: Unique Employee ID
-First_Name	: Employee First Name
-Last_Name	: Employee Last Name
-Middle_Name :	Middle Initial (if any)
-Job_ID :	Foreign Key referencing JOB
-Hire Date :	Date of Joining
-Salary :	Monthly Salary
-Commission :	Commission (nullable)
-Department_ID	: Foreign Key referencing DEPARTMENT
+| **Column Name** | **Data Type** | **Description**                        |
+| --------------- | ------------- | -------------------------------------- |
+| `Employee_ID`   | INT           | Unique employee ID                     |
+| `Last_Name`     | VARCHAR       | Last name of the employee              |
+| `First_Name`    | VARCHAR       | First name of the employee             |
+| `Middle_Name`   | VARCHAR       | Middle initial (optional)              |
+| `Job_ID`        | INT (FK)      | References `Job(Job_ID)`               |
+| `Hire_Date`     | DATE          | Date when the employee was hired       |
+| `Salary`        | DECIMAL       | Monthly salary of the employee         |
+| `Comm`          | DECIMAL       | Commission (nullable)                  |
+| `Department_ID` | INT (FK)      | References `Department(Department_ID)` |
+

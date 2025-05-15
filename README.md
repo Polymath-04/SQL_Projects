@@ -1,6 +1,6 @@
 # SQL_Projects
 
-Assignment 1 – Sales Order Processing System
+**Assignment 1 – Sales Order Processing System**
 Project Title:
 Sales Order Management for ABC Fashion
 
@@ -16,9 +16,9 @@ Customer
 
 Orders
 
+-----
 
-
-Assignment 2 – Restaurant Data Analysis (Jomato Dataset)
+**Assignment 2 – Restaurant Data Analysis (Jomato Dataset)**
 Project Title:
 SQL-Based Restaurant Insights for Jomato-like Food Delivery Platform
 
@@ -40,9 +40,9 @@ Average cost, etc.
 
 This data is used to perform analytical operations and generate business-relevant insights for a food delivery service.
 
+-----
 
-
-Assignment 3 – Advanced SQL Operations on Jomato Dataset
+**Assignment 3 – Advanced SQL Operations on Jomato Dataset**
 Project Title:
 SQL Automation and Advanced Operations for Restaurant Analytics
 
@@ -65,10 +65,10 @@ Area/location
 This data supports deep analysis and the implementation of SQL-based automation for real-time platforms.
 
 
+----
 
 
-
-SQL Case Study 1 – Customer Sales and Profit Analysis
+**SQL Case Study 1 – Customer Sales and Profit Analysis**
 Project Title:
 Sales, Profit, and Product Insights from Customer Data
 
@@ -92,10 +92,10 @@ LocationTable (156 rows)
 Columns: Area Code, State, Market, Market Size
 
 
+----
 
 
-
-SQL Case Study 2 – Employee & Department Database Analysis
+**SQL Case Study 2 – Employee & Department Database Analysis**
 Project Title:
 Relational SQL Analysis on Employee, Department, and Location Data
 

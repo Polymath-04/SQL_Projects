@@ -103,10 +103,11 @@ Dataset Description:
 This case study consists of the following relational tables:
 
 1. LOCATION Table:
-| **Column Name** | **Data Type** | **Description**    |
-| --------------- | ------------- | ------------------ |
-| `Location_ID`   | INT (PK)      | Unique location ID |
-| `City`          | VARCHAR       | City name          |
+| Column Name  | Data Type | Description        |
+| ------------ | --------- | ------------------ |
+| Location\_ID | INT (PK)  | Unique location ID |
+| City         | VARCHAR   | City name          |
+
 
 
 2. DEPARTMENT Table:

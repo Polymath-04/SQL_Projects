@@ -1,121 +1,109 @@
-# SQL_Projects
+# 📊 SQL Projects - T-SQL Data Analysis & Query Optimization
 
-## Assignment 1 – Sales Order Processing System
-Project Title:
-* Sales Order Management for ABC Fashion
+A collection of advanced T-SQL projects demonstrating expertise in database design, query optimization, complex data analysis, and business intelligence using Microsoft SQL Server.
 
-Objective:
-* This assignment demonstrates practical SQL skills by managing and querying a relational database for ABC Fashion's Sales Order Processing System. The focus is on data integrity, relationship mapping, constraints, and SQL operations to extract meaningful business insights.
+---
 
-Dataset:
-The dataset consists of three primary tables:
-* Salesman
-* Customer
-* Orders
+## 🎯 Repository Overview
 
------
+This repository contains **professional-grade SQL projects** showcasing:
+- ✅ Advanced T-SQL querying (CTEs, Window Functions, Stored Procedures)
+- ✅ Database design and optimization
+- ✅ Real-world business problem solving
+- ✅ Query performance tuning
+- ✅ Complex data analysis workflows
 
-## Assignment 2 – Restaurant Data Analysis (Jomato Dataset)
-Project Title:
-* SQL-Based Restaurant Insights for Jomato-like Food Delivery Platform
+---
 
-Objective:
-* This assignment showcases SQL skills applied to real-world restaurant data from a Jomato-like food delivery platform. It involves user-defined functions, conditional logic, date handling, and aggregation to derive actionable insights for the client.
+## 📚 Projects Included
 
-Dataset:
-The dataset consists of restaurant data in a city, including:
-* Restaurant name
-* Cuisine type
-* Ratings
-* Restaurant type
-* Average cost, etc.
+### 1. SQL ASSIGNMENT 1 - Sales Order Processing System
+**Business Context:** ABC Fashion - Sales Order Management
 
-This data is used to perform analytical operations and generate business-relevant insights for a food delivery service.
+**Objective:**
+Demonstrate practical SQL skills by managing and querying a relational database. Focus on data integrity, relationship mapping, constraints, and extracting meaningful business insights.
 
------
+**Dataset:** Three primary tables: Salesman, Customer, Orders
 
-## Assignment 3 – Advanced SQL Operations on Jomato Dataset
-Project Title:
-* SQL Automation and Advanced Operations for Restaurant Analytics
+**Key Skills:** JOINs, Constraints, Aggregate Functions, Data Integrity
 
-Objective:
-* This assignment builds on advanced SQL concepts by working with a restaurant dataset provided by a Jomato-like food delivery platform. The focus is on procedures, transactions, triggers, views, and flow control constructs to manage data and automate business logic.
+---
 
-Dataset:
-A structured dataset containing information about restaurants in a city, including:
-* Restaurant name and type
-* Cuisine
-* Ratings
-* Table booking status
-* Area/location
+### 2. SQL ASSIGNMENT 2 - Advanced Queries & Business Analytics
+**Focus:** Complex analysis, KPI calculations, trend analysis
 
-This data supports deep analysis and the implementation of SQL-based automation for real-time platforms.
+**Business Queries:** Top salespeople, customer acquisition metrics, seasonal patterns, revenue tracking
 
+**Techniques:** Subqueries, GROUP BY, HAVING, DATE functions, CASE statements
 
-----
+---
 
+### 3. SQL ASSIGNMENT 3 - Window Functions & CTEs
+**Advanced Topic:** Window Functions and Common Table Expressions
 
-## SQL Case Study 1 – Customer Sales and Profit Analysis
-Project Title:
-* Sales, Profit, and Product Insights from Customer Data
+**Scenarios:** Running totals, ranking, year-over-year comparison, customer segmentation
 
-Objective:
-* This case study applies SQL concepts to analyze customer data from various states to understand patterns in sales, profit, marketing spend, COGS (Cost of Goods Sold), and other business KPIs. As a database administrator, your goal is to derive actionable insights from sample datasets to inform strategy and decision-making.
+**SQL Features:** ROW_NUMBER(), RANK(), LAG(), LEAD(), Recursive CTEs
 
-Dataset Description:
-* You have access to three interrelated tables:
+---
 
-FactTable (4,200 rows):
-* Contains sales data with the following fields:
+### 4. Case Studies - Comprehensive Data Analysis
+**Real-world Analysis** of 10,000+ transaction records across multiple stores
 
-  * Date, ProductID, Profit, Sales, Margin, COGS, Total Expenses, Marketing, Inventory
+**Deliverables:** Sales dashboards, customer profitability, inventory metrics, churn prediction
 
-  * Budget Profit, Budget COGS, Budget Margin, Budget Sales, Area Code
+---
 
-ProductTable (13 rows):
-* Columns: Product Type, Product, ProductID, Type
+## 🛠️ Technologies
 
-LocationTable (156 rows):
-* Columns: Area Code, State, Market, Market Size
+```
+Database: Microsoft SQL Server
+Language: T-SQL
+Version: SQL Server 2016+
+Tools: SSMS, Query Analyzer, Execution Plans
+```
 
+---
 
-----
+## 📊 Query Techniques
 
+| Technique | Difficulty |
+|-----------|------------|
+| JOINs | Intermediate |
+| Subqueries | Intermediate |
+| CTEs (WITH clause) | Advanced |
+| Window Functions | Advanced |
+| Stored Procedures | Advanced |
+| Index Optimization | Advanced |
+| Execution Plans | Advanced |
 
-## SQL Case Study 2 – Employee & Department Database Analysis
-Project Title:
-* Relational SQL Analysis on Employee, Department, and Location Data
+---
 
-Objective:
-* The goal of this case study is to apply SQL techniques such as joins, subqueries, aggregation, and conditional logic to a simulated HR database. The analysis focuses on employee information, department distributions, job roles, salary insights, and data normalization using relational keys and constraints.
+## 💡 Business Value
 
-Dataset Description:
-* This case study consists of the following relational tables:
+✅ Identify top products and customers
+✅ Monitor KPIs and performance metrics
+✅ Customer lifetime value analysis
+✅ Data quality validation
+✅ Strategic trend analysis
 
-* **LOCATION Table**
+---
 
-  * **Location\_ID:** Primary Key
-  * **City:** City Name
+## 🚀 How to Use
 
-* **DEPARTMENT Table**
+1. Open SSMS and create database
+2. Run table creation scripts
+3. Execute analysis queries
+4. Review execution plans for optimization
 
-  * **Department\_ID:** Primary Key
-  * **Name:** Department Name
-  * **Location\_ID:** Foreign Key referencing LOCATION
+---
 
-* **JOB Table**
+## 📞 Contact
 
-  * **Job\_ID:** Primary Key
-  * **Designation:** Job Title
+- Email: parth.da0402@gmail.com
+- LinkedIn: [parthsharma04](https://www.linkedin.com/in/parthsharma04/)
+- GitHub: [@Polymath-04](https://github.com/Polymath-04)
 
-* **EMPLOYEE Table**
+---
 
-  * **Employee\_ID:** Unique Employee ID
-  * **First\_Name:** Employee First Name
-  * **Last\_Name:** Employee Last Name
-  * **Middle\_Name:** Middle Initial (if any)
-  * **Job\_ID:** Foreign Key referencing JOB
-  * **Hire Date:** Date of Joining
-  * **Salary:** Monthly Salary
-  * **Commission:** Commission (nullable)
-  * **Department\_ID:** Foreign Key referencing DEPARTMENT
+**Last Updated:** December 2025
